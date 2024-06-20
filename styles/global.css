@@ -7,17 +7,17 @@
 body {
   width: 1100px;
   margin: 0 auto;
+  color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  color: #000;
-  background-color: #fff;
   letter-spacing: 0 !important;
+  background-color: #fff;
 }
 
 .container {
+  margin-right: 24px;
   /* padding-left: 24px; */
   margin-left: 24px;
-  margin-right: 24px;
 }
 
 h1,
@@ -80,12 +80,12 @@ img {
   width: 100%;
   border: 1px solid #fff;
   color: #fff;
-  font-size: 22px;
   font-weight: medium;
+  font-size: 22px;
   text-transform: uppercase;
-  white-space: nowrap;
   background: transparent;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 /* UI END */
@@ -93,19 +93,19 @@ img {
 /* COMPONENT ADDRESS */
 
 .address {
-  padding-left: 1px;
   max-width: 240px;
+  padding-left: 1px;
+  color: #000;
+  font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  font-size: 18px;
-  color: #000;
 }
 
 .address__link {
   display: inline-block;
   height: 24px;
-  letter-spacing: 0.01em;
   line-height: 24.3px;
+  letter-spacing: 0.01em;
 }
 
 /* COMPONENT ADDRESS END */
@@ -113,11 +113,11 @@ img {
 /* COMPONENT CARD */
 
 .card {
-  min-height: 563px;
   height: 100%;
+  min-height: 563px;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .card__inner-wrapper {
@@ -139,22 +139,22 @@ img {
 }
 
 .card__title {
+  color: #fff;
+  font-weight: bold;
   font-size: 22px;
   line-height: 120%;
-  font-weight: bold;
   text-decoration: underline;
-  text-transform: uppercase;
   text-underline-offset: 0.1em;
-  color: #fff;
+  text-transform: uppercase;
 }
 
 .card__text {
   margin-top: auto;
+  color: #fff;
+  font-weight: normal;
   font-size: 20px;
   line-height: 119.5%;
-  font-weight: normal;
   text-decoration: none;
-  color: #fff;
 }
 
 /* COMPONENT CARD END */
